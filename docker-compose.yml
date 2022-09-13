@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  oracle_db:
+    build: .
+    ports:
+      - "1522:1521"
